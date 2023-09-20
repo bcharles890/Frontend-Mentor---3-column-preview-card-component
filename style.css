@@ -1,0 +1,63 @@
+
+
+@media only screen and (max-width: 376px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 95%);
+    }
+
+    #main-container{
+        width: 320px;
+    }
+
+    #container-1{
+        background-color: hsl(31, 77%, 52%);
+        height: 400px;
+        
+        
+    }
+
+    #container-2{
+
+        background-color: hsl(184, 100%, 22%);
+        height: 400px;
+    }
+
+    #container-3{
+        background-color: hsl(179, 100%, 13%);
+        height: 400px;
+    }
+
+    .btn{
+        background-color: white;
+        border: solid white 2px;
+        border-radius: 8px;
+        width: 100px;
+        height: 30px;
+    }
+
+    #btn-sedan{
+        color:hsl(31, 77%, 52%);
+    }
+
+    #btn-suv{
+        color:hsl(184, 100%, 22%);
+    }
+
+    #btn-luxury{
+        color:hsl(179, 100%, 13%);
+    }
+
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 377px){
+
+}
